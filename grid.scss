@@ -1,0 +1,16 @@
+.grid {
+    &.x {
+      flex-direction: row;
+    }
+    &.y {
+      flex-direction: column;
+    }
+    &.x,
+    &.y {
+      .cell {
+        &.auto {
+          width: 100%;
+        }
+      }
+    }
+  }
